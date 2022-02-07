@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .App-logo {
@@ -35,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input {
+  padding: 0.2rem;
+  width: 15%;
+  font-size: 1rem;
+}
+
+.date1{
+  margin-bottom: 1rem;
+}
+
+button{
+  width: 15%;
+  height: 1.5rem;
+  font-size: 1rem;
+  margin-left: 7%;
+  margin-top: 1rem;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  margin-left: 30%;
+  gap: 2rem;
+
 }
